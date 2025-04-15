@@ -7,7 +7,7 @@ import MovieDetails from './components/MovieDetails';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/TMDB_MovieApp">
       <Navbar bg="dark" variant="dark" expand="lg" className="mb-4 shadow-sm">
         <Container>
           <Navbar.Brand as={Link} to="/">🎬 TMDB Movies</Navbar.Brand>
